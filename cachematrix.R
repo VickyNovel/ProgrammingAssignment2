@@ -38,11 +38,13 @@ cacheSolve <- function(x) {
   ## Return a matrix that is the inverse of 'x'
 }
 
-#tests
+# tests objects
 #test_m <- matrix(9:12, nrow = 2, ncol = 2)
 #cached_matrix <- makeCacheMatrix(test_m)
 #cacheSolve(cached_matrix)
 
-#Rerun
-cacheSolve(cached_matrix)
+# To see if the function cacheSolve performs correctly,
+# rerun the following function. 
+# 
+#cacheSolve(cached_matrix)
 
